@@ -1,0 +1,32 @@
+
+:root {
+  --primary-dark: #1B3C53;
+  --primary: #234C6A;
+  --secondary: #456882;
+  --accent: #D2C1B6;
+}
+
+body {
+  background-color: var(--accent);
+  color: var(--primary-dark);
+}
+
+header, .header {
+  background-color: var(--primary-dark);
+  color: var(--accent);
+}
+
+footer, .footer {
+  background-color: var(--primary);
+  color: var(--accent);
+}
+
+.button, button {
+  background-color: var(--secondary);
+  color: var(--accent);
+  border: none;
+}
+
+a {
+  color: var(--primary);
+}

@@ -1,0 +1,31 @@
+.rotating-text-container {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.rotating-text {
+  display: inline-block;
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding: 10px 20px;
+  border-radius: 6px;
+  animation: smoothFadeIn 0.4s ease-in-out;
+}
+
+@keyframes smoothFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

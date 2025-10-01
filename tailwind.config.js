@@ -1,23 +1,27 @@
 // tailwind.config.js
 module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}", // adjust to your project structure
+  ],
   theme: {
     extend: {
       animation: {
-        fadeIn: 'fadeIn 0.4s ease-in-out',
+        fadeIn: "fadeIn 0.4s ease-in-out",
       },
       keyframes: {
         fadeIn: {
-          '0%': { opacity: '0', transform: 'translateY(20px) scale(0.9)' },
-          '100%': { opacity: '1', transform: 'translateY(0) scale(1)' },
+          "0%": { opacity: "0", transform: "translateY(20px) scale(0.9)" },
+          "100%": { opacity: "1", transform: "translateY(0) scale(1)" },
         },
       },
       colors: {
-        'primary-dark': '#1B3C53',
-        'primary': '#234C6A',
-        'secondary': '#456882',
-        'accent': '#D2C1B6',
+        primarydark: "#1B3C53",
+        primary: "#234C6A",
+        secondary: "#456882",
+        accent: "#D2C1B6",
       },
     },
   },
   plugins: [],
-}
+};

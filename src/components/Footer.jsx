@@ -107,7 +107,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-xs text-gray-400">
+      <div className="border-t border-gray-700 mt-15 pt-4 text-center text-xs text-gray-400">
         © 2024 HostelEase. All rights reserved.{" "}
         <a href="#" className="hover:text-white">
           Privacy Policy

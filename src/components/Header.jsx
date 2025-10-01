@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className="sticky top-0 left-0 w-full z-20 bg-gradient-to-r from-black via-gray-900 to-gray-800">
+    <header className="w-full z-20 sticky top-0 left-0** bg-black/30 backdrop-blur-md">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
@@ -11,7 +11,7 @@ const Header = () => {
               alt="HostelEzz Logo"
               className="h-8 w-8"
             />
-            <span className="text-white font-semibold text-lg">HostelEzz</span>
+            <span className="text-white font-semibold text-lg"><a href="/#hostelezz">HostelEzz</a></span>
           </div>
 
           {/* Nav Links */}

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { cards, rotatingTexts } from "./Constants";
 import "./Landingstyle.css";
-// ❌ Wrong import, removed: import { section } from "framer-motion/client";
 
 export default function Landing() {
   const [activeIndex, setActiveIndex] = useState(0);

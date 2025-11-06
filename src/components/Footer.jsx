@@ -8,9 +8,10 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 
+
 export default function Footer() {
   return (
-    <footer className="bg-[#0d1224] text-gray-300 py-10 px-20 md:px-16">
+    <footer className={`bg-[#1B3C53] text-gray-300 py-10 px-20 md:px-16`}>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Brand Section */}
         <div>
